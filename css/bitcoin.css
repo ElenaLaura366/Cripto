@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", arial, sans-serif;
+}
+body {
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+#imagine_crypto {
+  background-image: url(bitcoin.jpg);
+  position: relative;
+  height: 35rem;
+  padding: 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 90px 0 90px 0;
+  min-height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#imagine_crypto::before {
+  background: rgba(0, 0, 0, 0.6);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.continut {
+  text-align: center;
+  list-style: none;
+  z-index: 1;
+}
+
+#titlu {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  #titlu {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  #titlu {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  #titlu {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  #titlu {
+    max-width: 540px;
+  }
+}
+
+h1.white-title {
+  font-weight: 600 !important;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.imagine_crypto p {
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  line-height: 1.9;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 10px;
+  word-wrap: break-word;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.h1,
+h1 {
+  font-size: 2.5rem;
+}
+
+.h2,
+h2 {
+  font-size: 2rem;
+}
+
+.h3,
+h3 {
+  font-size: 1.75rem;
+}
+
+.h4,
+h4 {
+  font-size: 1.5rem;
+}
+
+.h5,
+h5 {
+  font-size: 1.25rem;
+}
+
+.h6,
+h6 {
+  font-size: 1rem;
+}
+
+/* meniu de navigare */
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0a58ca;
+}
+
+/*  sectiunea 1 */
+.sectiunea_1 {
+  margin-top: 50px;
+}
+
+#titlu_criptomonede {
+  text-align: center;
+  color: #000;
+}
+
+.paragraf_sectiunea_1 {
+  margin-top: 25px;
+}
+
+/*  linie temporala  */
+
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+  color: #777;
+  font-size: 16px;
+}
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #0a58ca;
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px;
+}
+.section-title h4:after {
+  position: absolute;
+  background-color: #0a58ca;
+  content: "";
+  width: 10px;
+  height: 10px;
+  bottom: -4px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 50%;
+}
+ul.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+ul.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #0a58ca;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+ul.timeline-list li {
+  position: relative;
+  clear: both;
+  display: table;
+}
+.timeline_content {
+  border: 2px solid #0a58ca;
+  background-color: #fff;
+}
+ul.timeline-list li .timeline_content {
+  width: 45%;
+  color: #333;
+  padding: 30px;
+  float: left;
+  text-align: right;
+}
+ul.timeline-list li:nth-child(2n) .timeline_content {
+  float: right;
+  text-align: left;
+}
+.timeline_content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+ul.timeline-list li:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #0a58ca;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.timeline_content span {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: poppins;
+  color: #0a58ca;
+}
+
+@media (max-width: 1000px) {
+  ul.timeline-list li .timeline_content {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .timeline_content {
+    border: none;
+  }
+  ul.timeline-list li:nth-child(2n) .timeline_content {
+    text-align: center;
+  }
+  ul.timeline-list li:before {
+    content: none;
+  }
+}
+
+/* footer  */
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 110px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .container .sec {
+  margin-right: 30px;
+}
+footer .container .sec.aboutus {
+  width: 40%;
+}
+footer .container h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #0a58ca;
+}
+footer p {
+  color: #999;
+}
+.sci {
+  margin-top: 20px;
+  display: flex;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.sci li a:hover {
+  background: #0a58ca;
+}
+.sci li a .fa {
+  color: #fff;
+  font-size: 20px;
+}
+.quickLinks {
+  position: relative;
+  width: 25%;
+}
+.quickLinks ul li {
+  list-style: none;
+}
+.quickLinks ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.quickLinks ul li a:hover {
+  color: #fff;
+}
+.contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+.contact .info {
+  position: relative;
+}
+.contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact .info li span {
+  color: #999;
+}
+.contact .info li a {
+  color: #999;
+  text-decoration: none;
+}
+.contact .info li a:hover {
+  color: #fff;
+}
+.copyrightText {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .sec {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  footer .container .sec.aboutus,
+  .contact,
+  .quickLinks {
+    width: 100%;
+  }
+  .copyrightText {
+    padding: 8px 40px;
+  }
+}
