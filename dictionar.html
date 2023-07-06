@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicționar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/497ac8bbaa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/dictionar.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">Crypto</a>
+          <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="hash.html"
+                >Algoritm de criptare</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Criptomoneda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="bitcoin.html">Bitcoin</a>
+                </li>
+                <li><a class="dropdown-item" href="ethereum.html">Ethereum</a></li>
+                <li>
+                  <a class="dropdown-item" href="litecoin.html">Litecoin</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dictionar.html">Dicționar</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="btn btn-primary active"
+                aria-current="page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="imagine_crypto">
+      <div class="continut">
+        <div id="titlu">
+          <h1 class="white-title">Glosar complet de termeni privind criptomonedele 
+            și tehnologia blockchain</h1>
+          <p>
+            Revoluția blockchain a introdus multe practici noi în lumea de azi, printre 
+            care se remarcă criptomonedele. La fel ca în cazul multor altor tehnologii noi, 
+            terminologia asociată rețelelor blockchain și criptomonedelor evoluează și se 
+            modifică, noi expresii fiind create în permanență. Ca atare, am întocmit acest 
+            glosar de termeni tehnici, care te va ajuta să înțelegi mai bine termenii 
+            asociați tehnologiei blockchain și să stăpânești jargonul.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- cards -->
+    <div class="container inaltime margine_jos">
+      <div>
+        <ul class="lista margine">
+          <li>
+            <a href="#titlu1">0-9</a>
+          </li>
+          <li>
+            <a href="#titlu2">A-C</a>
+          </li>
+          <li>
+            <a href="#titlu3">D-H</a>
+          </li>
+          <li>
+            <a href="#titlu4">I-M</a>
+          </li>
+          <li>
+            <a href="#titlu5">N-P</a>
+          </li>
+          <li>
+            <a href="#titlu6">S-W</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <h1 id="titlu1" class="black margine">0-9</h1>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/51.png" class="card-img" alt="...">
+                <h1>51% Attack (Atac 51%)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">51% Attack (Atac 51%)</h3>
+                <p class="card-text">Acest termen descrie situația în care 
+                  o proporție prea mare din puterea rețelei blockchain este 
+                  concentrată într-un singur loc. Un utilizator sau un grup 
+                  de utilizatori care controlează 51% din sistem ar putea 
+                  să-l manipuleze în mod voit sau să inițieze din greșeală 
+                  tranzacții conflictuale care pot să compromită sistemul.</p>
+                  <a href="https://www.investopedia.com/terms/1/51-attack.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h1 id="titlu2" class="black margine">A-C</h1>
+        <div class="col-xl-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Airdrop3.png" class="card-img" alt="...">
+                <h1>Airdrop</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Airdrop</h3>
+                <p class="card-text">Distribuirea de simboluri de către operatorii unei 
+                  rețele de criptomonede. Simbolurile sunt fie oferite gratuit tuturor 
+                  deținătorilor de criptomonede, fie condiționate de efectuarea unei anumite 
+                  activități, cum ar fi promovarea criptomonedei pe o rețea socială.</p>
+                  <a href="https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Altcoin.png" class="card-img" alt="...">
+                <h1>Altcoin</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Altcoin</h3>
+                <p class="card-text">Orice altă criptomonedă în afară de Bitcoin se numește 
+                  altcoin (prescurtare de la „monedă alternativă”). Există sute de monede 
+                  alternative, care se tranzacționează în întreaga lume, 
+                  cum ar fi XRP, NEO, Stellar și multe altele.</p>
+                  <a href="https://www.investopedia.com/terms/a/altcoin.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/ASIC1.jpg" class="card-img" alt="...">
+                <h1>ASIC</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">ASIC</h3>
+                <p class="card-text">Abreviere, „Application Specific Integrated Circuit” 
+                  (Circuit integrat specializat pentru o anumită aplicație). De obicei, în 
+                  universul blockchain, expresia se referă la circuite dezvoltate pentru 
+                  computerele folosite pentru „minerit” și sunt considerate a fi superioare 
+                  procesoarelor și procesoarelor grafice.</p>
+                  <a href="https://www.investopedia.com/terms/a/asic.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/bitcoin1.jpg" class="card-img" alt="...">
+                <h1>Bitcoin</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Bitcoin</h3>
+                <p class="card-text">Prima și cea mai importantă criptomonedă (după capitalizarea de piață). 
+                  Criptomoneda Bitcoin a fost lansată în 2009 ca o valută descentralizată, 
+                  bazată pe tehnologia blockchain.</p>
+                  <a href="https://www.investopedia.com/terms/b/bitcoin.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/blockchain.jpg" class="card-img" alt="...">
+                <h1>Blockchain</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Blockchain</h3>
+                <p class="card-text">O rețea descentralizată, care constă într-un lanț continuu 
+                  de segmente de cod cu dimensiune predeterminată (blocuri). Toate tranzacțiile 
+                  din rețea sunt stocate într-un registru public, care este distribuit în întreaga 
+                  rețea, ceea ce înseamnă că nu este necesar un server central care să autorizeze 
+                  tranzacțiile din rețea.</p>
+                  <a href="https://www.investopedia.com/terms/b/blockchain.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Cold storage (stocare la rece)1.jpe" class="card-img" alt="...">
+                <h1>Cold storage (stocare la rece)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Cold storage (stocare la rece)</h3>
+                <p class="card-text">O măsură de securitate pentru stocarea criptomonedelor 
+                  în mediu offline. Aceasta poate lua forma unui dispozitiv de stocare 
+                  (o memorie flash USB) sau a unui portofel de hârtie.</p>
+                  <a href="https://www.investopedia.com/terms/c/cold-storage.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Consensus (consens).webp" class="card-img" alt="...">
+                <h1>Consensus (consens)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Consensus (consens)</h3>
+                <p class="card-text">Având în vedere faptul că foarte multe date din rețeaua 
+                  publică blockchain sunt stocate simultan în multe părți ale rețelei, toți 
+                  membrii vor să dețină aceeași copie a acestor segmente de coduri 
+                  (cum ar fi un registru public) în toată rețeaua.</p>
+                  <a href="https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Crypto2.jpg" class="card-img" alt="...">
+                <h1 class="margini_parti">Cryptocurrency (criptomonedă)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Cryptocurrency (criptomonedă)</h3>
+                <p class="card-text">Prima aplicație importantă a tehnologiei blockchain, 
+                  criptomonedele sunt valute concepute să existe fără o entitate centrală, 
+                  fiecare simbol și fiecare tranzacție fiind criptate în mod unic. 
+                  Tehnologia Blockchain reprezintă infrastructura care permite stocarea 
+                  criptomonedelor în rețea și tranzacțiile cu simboluri.</p>
+                  <a href="https://www.investopedia.com/terms/c/cryptocurrency.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h1 id="titlu3" class="black margine">D-H</h1>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/dapp.jpg" class="card-img" alt="...">
+                <h1>Dapps</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Dapps</h3>
+                <p class="card-text">Prescurtare de la Decentralised apps (Aplicații descentralizate). 
+                  Pe scurt, acestea sunt programe concepute să utilizeze tehnologia blockchain 
+                  pentru a crea orice fel de aplicație care rulează într-o rețea descentralizată.</p>
+                  <a href="https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/DAO.jpeg" class="card-img" alt="...">
+                <h1>DAO</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">DAO</h3>
+                <p class="card-text">Abrevierea numelui organizației Decentralized 
+                  Autonomous Organization (Organizație descentralizată autonomă). 
+                  Acest termen descrie o organizație care folosește practici bazate 
+                  pe tehnologia blockchain, cum ar fi contractele inteligente, pentru 
+                  a se autoadministra, fără a fi nevoie de o autoritate centrală.</p>
+                  <a href="https://www.investopedia.com/tech/what-dao/" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Digital signature (semnătură digitală).jpg" class="card-img" alt="...">
+                <h1>Digital signature (semnătură digitală)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Digital signature (semnătură digitală)</h3>
+                <p class="card-text">Termen uzual folosit pentru a identifica 
+                  în mod unic un individ sau o acțiune pe internet. În contextul 
+                  tehnologiei blockchain, de obicei, se referă la un identificator 
+                  unic alocat unui anumit utilizator, simbol sau tranzacție.</p>
+                  <a href="https://www.investopedia.com/best-electronic-signature-software-5180395" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Exchange.jpeg" class="card-img" alt="...">
+                <h1>Exchange</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Exchange</h3>
+                <p class="card-text">Entitate care acţionează ca un intermediar între 
+                  utilizatori şi care facilitează preschimbarea valutelor şi criptovalutelor.</p>
+                  <a href="https://www.investopedia.com/terms/c/currency-exchange.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/fork.png" class="card-img" alt="...">
+                <h1>Fork (bifurcație)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Fork (bifurcație)</h3>
+                <p class="card-text">Având în vedere că sistemul blockchain este unul 
+                  descentralizat, fiecare modificare a rețelei trebuie acceptată de 
+                  utilizatorii rețelei pentru a fi implementată. Dacă există suficienți 
+                  utilizatori care acceptă o actualizare sau o modificare a codului sursă, 
+                  această modificare este distribuită în rețea. O modificare care acceptă 
+                  versiuni mai vechi ale rețelei este numită Soft Fork (bifurcație simplă), 
+                  iar una fără compatibilitate cu versiunile anterioare, Hard Fork (bifurcație 
+                  fermă). Din când în când, dacă există divergențe în comunitate cu privire 
+                  la o bifurcație Hard Fork, acest lucru poate duce la crearea unei noi rețele 
+                  blockchain, paralelă cu cea inițială. Astfel de situații au dus la crearea 
+                  Bitcoin Cash și a Ethereum Classic.</p>
+                  <a href="https://www.investopedia.com/terms/h/hard-fork.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Gas.jpg" class="card-img" alt="...">
+                <h1>Gas</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Gas</h3>
+                <p class="card-text">Unitate de măsură folosită în Ethereum care contorizează 
+                  volumul de “muncă” necesar pentru realizarea unei acţiuni. Fiecare acţiune 
+                  care se realizează pe baza unei tranzacţii sau a unui contract costă o 
+                  anumită cantitate de gas, în funcţie de puterea de calcul utilizată. Sistemul 
+                  este complet diferit de valoarea de piaţă a monedei Ether. Unitatea de măsură 
+                  are şi subdiviziuni, calculate astfel: 1 gas = 10 szabo = 1/100.000 Ether.</p>
+                  <a href="https://www.investopedia.com/terms/g/gas-ethereum.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Genesis block.jpg" class="card-img" alt="...">
+                <h1>Genesis block (bloc de geneză)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Genesis block (bloc de geneză)</h3>
+                <p class="card-text">Primul bloc de cod creat pe o rețea blockchain.</p>
+                <a href="https://www.investopedia.com/terms/g/genesis-block.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Halving.jpg" class="card-img" alt="...">
+                <h1>Halving(Înjumătățire)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Halving(Înjumătățire)</h3>
+                <p class="card-text">Procesul prin care, o dată la 4 ani, recompensa în Bitcoin 
+                  oferită 
+                  minerilor se înjumătățește. Lucrul acesta se întâmpla datorită faptului că 
+                  există un număr maxim de Bitcoin care pot exista, adică 21 de milioane.</p>
+                  <a href="https://www.investopedia.com/bitcoin-halving-4843769" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/hash2.jpg" class="card-img" alt="...">
+                <h1>Hash</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Hash</h3>
+                <p class="card-text">Utilizarea unui algoritm pentru a aloca unui set de date o 
+                  „amprentă digitală”. Când se stochează informație în rețeaua blockchain, 
+                  se folosește procedeul hashing pentru a crea o formă unificată de identificare 
+                  a blocurilor de cod, prin convertirea acestora într-un șir de cifre și litere 
+                  de lungime fixă.</p>
+                  <a href="https://www.investopedia.com/news/cryptographic-hash-functions/" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h1 id="titlu4" class="black margine">I-M</h1>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/ico.jpg" class="card-img" alt="...">
+                <h1>ICO</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">ICO</h3>
+                <p class="card-text">Initial Coin Offering (Ofertă inițială de monedă). 
+                  Acest termen descrie situația în care o companie atrage fonduri prin 
+                  emiterea de simboluri de criptomonede, pe care le vinde la un preț fix 
+                  investitorilor timpurii.</p>
+                  <a href="https://www.investopedia.com/terms/i/initial-coin-offering-ico.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Ledger.png" class="card-img" alt="...">
+                <h1>Ledger (registru)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Ledger (registru)</h3>
+                <p class="card-text">Un jurnal digital al tuturor tranzacțiilor care au avut 
+                  loc într-o anumită rețea blockchain. Copii ale registrului sunt stocate în 
+                  rețea și actualizate în permanență pentru a fi identice. În acest fel, 
+                  tranzacțiile pot fi verificate de orice membru al rețelei.</p>
+                  <a href="https://www.investopedia.com/terms/g/generalledger.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Lightning Network.png" class="card-img" alt="...">
+                <h1>Lightning Network (rețea lightning)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Lightning Network (rețea lightning)</h3>
+                <p class="card-text">O soluție de tip „strat secundar”, concepută pentru a crește în 
+                  mod semnificativ viteza de procesare a tranzacțiilor în rețeaua blockchain. 
+                  Rețeaua lightning creează o rețea P2P în care se procesează tranzacțiile, 
+                  înainte de a fi înregistrate în registrul public al rețelei blockchain.</p>
+                  <a href="https://www.investopedia.com/terms/l/lightning-network.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Liquidity.jpg" class="card-img" alt="...">
+                <h1>Liquidity (lichiditate)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Liquidity (lichiditate)</h3>
+                <p class="card-text">Ușurința cu care o anumită criptomonedă poate fi transformată 
+                  în bani lichizi. Lichiditatea depinde de mulți factori, inclusiv de cerere și ofertă 
+                  și de timpii de tranzacționare.</p>
+                  <a href="https://www.investopedia.com/terms/l/liquidity.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Mining pool.jpg" class="card-img" alt="...">
+                <h1>Mining pool (Grup de minerit)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Mining pool (Grup de minerit)</h3>
+                <p class="card-text">Un ansamblu creat de un grup de „mineri” pentru a 
+                  procesa mai multe tranzacții și a primi mai multe comisioane. 
+                  Fondurile sunt apoi împărțite între membrii grupului.!</p>
+                  <a href="https://www.investopedia.com/terms/m/mining-pool.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Mining.jpg" class="card-img" alt="...">
+                <h1>Mining (minerit)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Mining (minerit)</h3>
+                <p class="card-text">
+                  Practica de alocare de putere de calcul pentru efectuarea tranzacțiilor 
+                  în rețea și pentru a fi răsplătit cu simboluri (tokens). Fiecare 
+                  tranzacție este criptată printr-o ecuație care necesită o putere mare 
+                  de calcul pentru procesare. „Minerii” care rezolvă primii ecuația, 
+                  făcând posibilă tranzacția, primesc un mic comision.
+                </p>
+                <a href="https://www.investopedia.com/tech/how-does-bitcoin-mining-work/" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h1 id="titlu5" class="black margine">N-P</h1>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Node.png" class="card-img" alt="...">
+                <h1>Node (nod)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Node (nod)</h3>
+                <p class="card-text">Un computer din rețea, care prelucrează o copie 
+                  a registrului blockchain. Nodurile sunt răspândite în rețea, ajutând 
+                  la menținerea aspectului descentralizat.</p>
+                  <a href="https://coinmarketcap.com/alexandria/article/what-is-a-node" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Paper wallet.jpg" class="card-img" alt="...">
+                <h1>Paper wallet (Portofel de hârtie)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Paper wallet (Portofel de hârtie)</h3>
+                <p class="card-text">Un sistem de „stocare la rece”, considerat unul 
+                  dintre cele mai sigure moduri de păstrare a criptomonedelor. Portofelul 
+                  de hârtie poate fi tipărit pe o imprimantă obișnuită și include cheia 
+                  publică și pe cea privată a utilizatorului, sub forma unor coduri QR. 
+                  Când utilizatorii doresc să își acceseze fondurile, nu trebuie decât 
+                  să scaneze portofelul de hârtie.</p>
+                  <a href="https://www.investopedia.com/terms/p/paper-wallet.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Private Key.png" class="card-img" alt="...">
+                <h1>Private Key (cheie privată)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Private Key (cheie privată)</h3>
+                <p class="card-text">Fiecare utilizator din rețea deține o cheie privată. Cheia 
+                  privată este cunoscută doar de utilizator, putând fi echivalată cu o parolă.</p>
+                  <a href="https://www.investopedia.com/terms/p/private-key.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Peer-to-Peer.jpg" class="card-img" alt="...">
+                <h1>Peer-to-Peer (P2P)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Peer-to-Peer (P2P)</h3>
+                <p class="card-text">Metodă de distribuire directă a informației între doi 
+                  membri ai unei rețele, fără a fi necesar un server prin care să treacă 
+                  datele.</p>
+                  <a href="https://www.investopedia.com/terms/p/peertopeer-p2p-service.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/proof-of-stake.jpg" class="card-img" alt="...">
+                <h1>Proof of Stake (dovada deținerii)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Proof of Stake (dovada deținerii)</h3>
+                <p class="card-text">Metodă prin care se determină utilizatorii eligibili să 
+                  adauge noi blocuri în lanț și, ca atare, să câștige comisionul de minerit. 
+                  Prin folosirea acestei metode, dintre utilizatorii care participă 
+                  la procesul de minerit, cei care au mai multe simboluri sunt favorizați 
+                  față de cei care dețin mai puține.</p>
+                  <a href="https://www.investopedia.com/terms/p/proof-stake-pos.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Proof of Work.jpg" class="card-img" alt="...">
+                <h1>Proof of Work (dovada activității)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Proof of Work (dovada activității)</h3>
+                <p class="card-text">Apărut înaintea metodei bazate pe deținere, dovada activității 
+                  este un concept similar, folosit pentru a decide care utilizator este eligibil 
+                  pentru a crea un bloc. Prin metoda dovezii activității, eligibilitatea este 
+                  determinată luându-se în calcul puterea de calcul și nu bogăția digitală a 
+                  minerului.</p>
+                  <a href="https://www.investopedia.com/terms/p/proof-work.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Public Key.jpg" class="card-img" alt="...">
+                <h1>Public Key (cheie publică)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Public Key (cheie publică)</h3>
+                <p class="card-text">Așa cum cheia privată menționată anterior putea fi echivalată 
+                  cu o parolă, cheia publică este similară unui nume de utilizator, fiind vizibilă 
+                  tuturor în registrul public.
+                </p>
+                <a href="https://www.investopedia.com/terms/p/public-key.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h1 id="titlu6" class="black margine">S-W</h1>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/SegWit.png" class="card-img" alt="...">
+                <h1>SegWit</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">SegWit</h3>
+                <p class="card-text">Prescurtare de la „Segregated Witness” (Martor separat). 
+                  Acest termen se referă la o soluție care crește viteza rețelei blockchain. 
+                  SegWit poate fi implementat ca o bifurcație simplă într-o rețea blockchain, 
+                  îmbunătățind funcțiile acesteia, fără a fi necesară crearea unei noi monede 
+                  sau pierderea compatibilității cu versiunile anterioare ale rețelei.</p>
+                <a href="https://www.investopedia.com/terms/s/segwit-segregated-witness.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Smart Contract.jpg" class="card-img" alt="...">
+                <h1>Smart Contract (contract inteligent)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Smart Contract (contract inteligent)</h3>
+                <p class="card-text">Algoritm care folosește tehnologia blockchain pentru a executa 
+                  în mod automat un anumit contract. Când sunt îndeplinite condițiile unui contract 
+                  inteligent, acesta este executat, părțile participante fiind răsplătite în funcție 
+                  de termenii contractului. Contractele inteligente au fost popularizate de rețeaua 
+                  blockchain Ethereum.</p>
+                  <a href="https://www.investopedia.com/terms/s/smart-contracts.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Token.png" class="card-img" alt="...">
+                <h1>Token (simbol)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Token (simbol)</h3>
+                <p class="card-text">O monedă individuală, asociată unei anumite rețele blockchain, 
+                  reprezentând valuta acesteia, care oferă valoare tranzacțiilor din rețea. De 
+                  exemplu, simbolul rețelei Litecoin se numește LTC.</p>
+                  <a href="https://www.investopedia.com/terms/c/crypto-token.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Transaction Fee.jpg" class="card-img" alt="...">
+                <h1>Transaction Fee (Comision de tranzacție)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Transaction Fee (Comision de tranzacție)</h3>
+                <p class="card-text">Având în vedere faptul că tranzacțiile din rețeaua blockchain 
+                  necesită o mare putere de calcul, minerii din rețea concurează pentru a procesa 
+                  tranzacțiile, alocând putere de calcul. Minerul care va procesa până la urmă 
+                  tranzacția primește comisionul.</p>
+                  <a href="https://www.investopedia.com/tech/how-much-does-it-cost-buy-cryptocurrency-exchanges/" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Wallet.png" class="card-img" alt="...">
+                <h1>Wallet (portofel)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Wallet (portofel)</h3>
+                <p class="card-text">Un program online sau un program de tip client, care îi permite 
+                  utilizatorului să stocheze, să transfere și să își consulte soldul. Există diferite 
+                  portofele, care permit folosirea a diferite criptomonede. Multe dintre acestea 
+                  permit stocarea mai multor tipuri de criptomonede pe o singură platformă.</p>
+                  <a href="https://www.investopedia.com/terms/b/bitcoin-wallet.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margine black">
+          <div class="card card-flip h-100">
+            <div class="card-front text-white">
+              <div class="centru">
+                <img src="img/Whitepaper.png" class="card-img" alt="...">
+                <h1>Whitepaper (documentație)</h1>
+              </div>
+            </div>
+            <div class="card-back bg-white">
+              <div class="card-body">
+                <h3 class="card-title">Whitepaper (documentație)</h3>
+                <p class="card-text">Un document care servește drept raport sau ghid cu privire 
+                  la o problemă complexă. 
+                  În lumea criptomonedelor, documentele „white paper” sunt folosite pentru a 
+                  prezenta o rețea blockchain sau o structură, un plan sau o viziune a unei 
+                  criptomonede.</p>
+                <a href="https://www.investopedia.com/terms/w/whitepaper.asp" class="btn btn-outline-primary">Mai multe detalii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer> 
+      <div class="container">
+        <div class="sec aboutus">
+          <h2>Despre pagină</h2>
+          <p>
+            Într-o era a vitezei, unde informația este actualizată constant, 
+            trebuie să ne adaptăm la noile schimbări. Criptomonedele reprezintă 
+            una din cele mai mari inovații la nivelul economiei dar și a 
+            tehnologiei.
+          </p>
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-youtube-play" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec contact">
+          <h2>Date de contact</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span
+                >Piatra-Neamț<br> Str. Mihai Viteazu <br>
+                Nr. 12 610226</span
+              >
+                
+            </li>
+            <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></i></span>
+                <p><a href="tel:0753993951">+4 0753 993 951</a></p>
+              </li>
+              <li>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span>
+                <p><a href="mailto:lauraelena366@gmail.com">lauraelena366@gmail.com</a></p>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
