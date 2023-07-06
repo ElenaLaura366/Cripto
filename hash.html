@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algoritmi de criptare</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/497ac8bbaa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/hash.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">Crypto</a>
+          <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="hash.html"
+                >Algoritm de criptare</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Criptomoneda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="bitcoin.html">Bitcoin</a>
+                </li>
+                <li><a class="dropdown-item" href="ethereum.html">Ethereum</a></li>
+                <li>
+                  <a class="dropdown-item" href="litecoin.html">Litecoin</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dictionar.html">Dicționar</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="btn btn-primary active"
+                aria-current="page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="imagine_crypto">
+      <div class="continut">
+        <div id="titlu">
+          <h1 class="white-title">Algoritmi de criptare</h1>
+          <p>
+            Criptografia este o ramură a matematicii aplicate care este
+            utilizată pentru securizarea şi menţinerea caracterului privat al
+            informaţiilor.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container sectiunea_1">
+      <h1 id="titlu_criptomonede" class="subliniere">
+        Ce este hash criptografic?
+      </h1>
+      <p class="paragraf_sectiunea_1 black">
+        Funcțiile hash au ca intrare un mesaj (fișier, șir) de lungime arbitrară
+        și generează o sumă/șir de control (numit și hash sau digest) de lungime
+        fixă. Lungimea acestui șir de control depinde de funcția utilizată, dar
+        în general este între 128 și 512 biți. Fucțiile hash sunt utilizate în
+        special în trei domenii: Garantarea integrității uni mesaj (sau a unui
+        fișier descărcat) prin atașasrea la mesaj a hash-ului generat; Sunt
+        parte a procesului de creare a semnăturii digitale; Stocarea parolelor –
+        parolele nu sunt aproape niciodată (sau nu ar trebui să fie) stocate în
+        forma lor originală. Ceea ce este stocat, în general, este un hash al
+        parolei. Atunci când un utilizator introduce o parolă, este calculat
+        hash-ul acesteia, care este apoi comparat cu hash-ul stocat. Dacă ele
+        coincid, parola este considerată ca fiind cea corectă.
+      </p>
+      <p class="paragraf_sectiunea_1 black">
+        Modul în care utilizatorii detectează manipularea în practică este prin
+        hashuri, șiruri lungi de numere care servesc drept dovadă a muncii.
+        Puneți un anumit set de date printr-o funcție hash și va genera
+        întotdeauna un singur hash. Din cauza „efectului de avalanșă”, totuși,
+        chiar și o mică modificare a oricărei părți a datelor originale va avea
+        ca rezultat un hash total de nerecunoscut. Indiferent de dimensiunea
+        setului de date original, hash-ul generat de o anumită funcție va avea
+        aceeași lungime. Hash-ul este o funcție unidirecțională: nu poate fi
+        folosită pentru a obține datele originale, doar pentru a verifica dacă
+        datele care au generat hash-ul se potrivesc cu datele originale.
+      </p>
+      <p class="paragraf_sectiunea_1 black">
+        Generarea oricărui hash pentru un set de tranzacții cu bitcoin ar fi
+        banală pentru un computer modern, așa că pentru a transforma procesul în
+        „muncă”, rețeaua bitcoin stabilește un anumit nivel de „dificultate”.
+        Această setare este ajustată astfel încât un nou bloc să fie „minat” –
+        adăugat la blockchain prin generarea unui hash valid – aproximativ la
+        fiecare 10 minute. Setarea dificultății se realizează prin stabilirea
+        unei „ținte” pentru hash: cu cât ținta este mai mică, cu atât setul de
+        hashuri valide este mai mic și cu atât este mai greu să generați unul.
+        În practică, aceasta înseamnă un hash care începe cu un șir foarte lung
+        de zerouri.
+      </p>
+    </div>
+    <!--  imagine algoritm hash explicat  -->
+    <div class="container text-center">
+      <img src="img/hash_algoritm.png" class="img-fluid">
+    </div>
+    <div class="container mb-xl-5 mt-xl-5 black">
+      <h1 class="aliniere">Algoritmi utilizați de diferite criptomonede</h1>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Algoritm</th>
+            <th scope="col">Monedă</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SHA-256</td>
+            <td>Bitcoin, Mastercoin, MazaCoin, Namecoin, NuBits, Peercoin, BitcoinDark,
+              Scotcoin, Nubits, CarpeDiem, Paccoin, Tigercoin, Mazacoin, eMark, Titcoin,
+              Neoscoin, Saffroncoin, Curecoin, Zetacoin, Acoin, TEKcoin, Unobtanium,
+              Blakecoin, Reikicoin, Ixcoin, Bytecoin
+            </td>
+          </tr>
+          <tr>
+            <td>Scrypt</td>
+            <td>Auroracoin, Coinye, Synereo, Syscoin,GameCredits, Dogecoin, Litecoin,
+              Potcoin, Starcoin, Teslacoin, Nucoin,Topcoin,Pesetacoin, Smartcoin, Xivra, 
+              Zedcoin, Stockcoin, Foxcoin, Worldcoin, Reddcoin
+            </td>
+          </tr>
+          <tr>
+            <td>Ethash</td>
+            <td>Ethereum, Ethereum Classic, Krypton, Shift, Expanse, Ubiq, Pirl,
+              Musicoin, QuarkChain
+            </td>
+          </tr>
+          <tr>
+            <td>Equihash</td>
+            <td>Zcash, Bitcoin Gold, Komodo, Zclassic, ZenCash, Bitcoin Private, Horizen
+            </td>
+          </tr>
+          <tr>
+            <td>Lyra2z</td>
+            <td>Zcoin, Fine Art, Taler, CriptoReal, OneManCoin, Gincoin, Alpenschilling,
+              Pyro, Slate
+            </td>
+          </tr>
+          <tr>
+            <td>X11</td>
+            <td>	Dash, Crevacoin, Cryptcoin, Fuelcoin, Startcoin, Crevacoin, Adzcoin,
+              Influxcoin, Cannabiscoin, Darkcoin, Hirocoin, X11coin, Smartcoin, 
+              Goldblocks, Hatch
+            </td>
+          </tr>
+          <tr>
+            <td>Lyra2REv2</td>
+            <td>Vertcoin, Monacoin, Rupee, Straks, Verge, Shield, Galactrum
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer> 
+      <div class="container">
+        <div class="sec aboutus">
+          <h2>Despre pagină</h2>
+          <p>
+            Într-o era a vitezei, unde informația este actualizată constant, 
+            trebuie să ne adaptăm la noile schimbări. Criptomonedele reprezintă 
+            una din cele mai mari inovații la nivelul economiei dar și a 
+            tehnologiei.
+          </p>
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-youtube-play" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec contact">
+          <h2>Date de contact</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span
+                >Piatra-Neamț<br> Str. Mihai Viteazu <br>
+                Nr. 12 610226</span
+              >
+                
+            </li>
+            <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></i></span>
+                <p><a href="tel:0753993951">+4 0753 993 951</a></p>
+              </li>
+              <li>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span>
+                <p><a href="mailto:lauraelena366@gmail.com">lauraelena366@gmail.com</a></p>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
